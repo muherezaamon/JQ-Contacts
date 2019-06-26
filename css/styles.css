@@ -1,0 +1,30 @@
+label, input {
+	display: block;
+}
+div {
+	padding: 10px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size:
+}
+
+p.blank {
+	cursor:  pointer;
+	color: #3333cc;
+}
+
+p.blank:hover {
+	text-decoration: underline;
+	background-color: #ffccff;
+}

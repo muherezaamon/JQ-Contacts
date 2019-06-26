@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My contacts</title>
+     <script src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" >
+  </head>
+  <body>
+  	<div class="edy">
+  	  <!--	<form> -->
+        <img src="img/am.jpg" width="250px" alt="contact">
+    <p>Add a new contact</p>
+    <div><label>First name:</label>
+    	<input type="text" name="firstname">
+    	<label>Second name:</label>
+        <input type="text" name="secondname">
+        <label>Phone number:</label>
+    	<input type="text" name="number">
+        <label>Email:</label>
+    	<input type="text" name="email">
+        <label>Address:</label>
+    	<input type="text" name="address">
+    	<input type="submit" onclick="saveContact()">
+    	<!--	<form> -->
+    	</div>
+    </div>
+    <div class="saw"> <hi>Search contact</hi>
+        <input type="text" name="search_phrase">    
+        <input value="Search" type="submit" onclick="searchContacts()">
+         <p><b>Results</b></p>
+        <p id ="result"></p>
+        <p class="blank">Not found what you are looking for?</p>
+    </div>
+        
+
+  </body>
+  </html>
